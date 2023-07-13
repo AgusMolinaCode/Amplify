@@ -6,6 +6,11 @@ import Footer from "./Footer";
 interface Product {
   sys: {
     id: string;
+    contentType: {
+      sys: {
+        id: string;
+      }
+    }
   };
   fields: {
     nombre: string;
