@@ -3,7 +3,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-500 bg-opacity-20 border-t-2 rounded-tl-full rounded-tr-full mt-16 h-22 pb-2 border-gray-500">
+    <div className="bg-gray-500 bg-opacity-20 border-t-2 rounded-tl-3xl rounded-tr-3xl md:rounded-tl-full md:rounded-tr-full mt-16 h-22 pb-2 border-gray-500">
       <div className="flex flex-col mt-2 justify-center h-full">
         <div className="flex flex-wrap justify-center gap-2 px-20 items-end">
 

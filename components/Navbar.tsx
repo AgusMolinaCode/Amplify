@@ -15,23 +15,12 @@ const Navbar: React.FC = () => {
 
   return (
     <div>
-      <div className="pt-5 px-2 md:px-20 gap-2 md:gap-4 flex items-center justify-between">
+      <div className="pt-5 px-3 md:px-20 gap-2 md:gap-4 flex items-center justify-between">
         <Link href="/">
           <SiCarthrottle className="text-6xl md:text-7xl p-2 rounded-s-3xl rounded-t-3xl bg-slate-900 border-2 text-primary" />
         </Link>
 
         <div className="flex items-center justify-between gap-4">
-          {/* <div className="relative z-10 right-0">
-            <input
-              type="text"
-              className="border-[1px] border-primary bg-slate-900 rounded-3xl p-1 md:pl-3 md:pr-10 font-principal text-primary"
-              style={{ outline: "none" }}
-            />
-            <button className="absolute top-0 bottom-0 right-2 flex items-center justify-center text-lg border-none p-0 w-auto">
-              <BsSearch className="text-primary" />
-            </button>
-          </div> */}
-
           <div className="flex items-center gap-2">
             <div className="hidden md:block">
               <button className="button1">

@@ -82,7 +82,13 @@ export default function Products({
 
   if (error) {
     console.error(error);
-    return <div>Error al cargar los Productos</div>;
+    return (
+      <div>
+        <h1 className="text-2xl font-principal text-primary">
+          Error al cargar los Productos
+        </h1>
+      </div>
+    );
   }
 
   const filteredContent = content?.filter(
@@ -134,7 +140,7 @@ export default function Products({
                 <h1 className="text-lg md:text-xl font-principal text-primary">
                   $ {item.fields.precio} ARS
                 </h1>
-                
+
                 <h1 className="text-lg md:text-xl font-principal text-primary">
                   Wsp: {item.fields.whatsapp}
                 </h1>
@@ -150,7 +156,6 @@ export default function Products({
                 <button
                   className="text-white p-2 border-[1px] hover:bg-red-600 duration-300 font-principal rounded-xl font-semibold text-xl"
                   onClick={() => handleDeleteClick(item.sys.id)}
-
                 >
                   {isLoading ? "Eliminando..." : "Eliminar"}
                 </button>

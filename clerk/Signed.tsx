@@ -5,7 +5,7 @@ const Signed = () => {
   return (
     
       <SignedIn>
-        <UserButton afterSignOutUrl="/" />
+        <UserButton afterSignOutUrl="https://amplify-eight.vercel.app/" />
       </SignedIn>
     
   );
