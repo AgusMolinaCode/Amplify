@@ -1,34 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Amplify
+### Next.js 13 - Tailwind CSS - Typescript - Contentful - Clerk Auth
 
-First, run the development server:
+#### Desarrollé un sitio web de alquiler de sonido y sistemas para DJ utilizando Next.js, Tailwind CSS, TypeScript, Contentful y Clerk. Con una interfaz moderna y receptiva, los usuarios pueden autenticarse, subir productos, comunicarse a través de WhatsApp y administrar su inventario. La combinación de Next.js y Tailwind CSS garantiza un rendimiento rápido en todos los dispositivos. TypeScript aporta un código seguro y escalable, mientras que Contentful simplifica la gestión de contenido. Con Clerk, la autenticación es segura y fácil. En resumen, mi proyecto ofrece una experiencia de alquiler de sonido completa y eficiente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Captura de pantalla 2023-07-12 a la(s) 22 33 34](https://github.com/AgusMolinaCode/Amplify/assets/105619330/6ae75fea-7ab4-4832-b782-cceac223e10a)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+![Captura de pantalla 2023-07-12 a la(s) 22 34 37](https://github.com/AgusMolinaCode/Amplify/assets/105619330/ec00e523-a143-4621-94cc-cfd2978ad9a4)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Captura de pantalla 2023-07-12 a la(s) 22 35 20](https://github.com/AgusMolinaCode/Amplify/assets/105619330/8d992aa2-147b-4fe5-8a6e-927f21bca5fe)
