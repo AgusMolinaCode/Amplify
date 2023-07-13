@@ -7,6 +7,11 @@ import { useState } from "react";
 interface Product {
   sys: {
     id: string;
+    contentType: {
+      sys: {
+        id: string;
+      };
+    };
   };
   fields: {
     nombre: string;
@@ -28,6 +33,7 @@ interface Product {
       };
     }[];
   };
+  contentTypeId: string;
 }
 
 interface Props {
@@ -60,7 +66,14 @@ export default function Products({
 
   async function getContent(): Promise<Product[]> {
     const entries = await client.getEntries<Product>();
-    return entries.items;
+    const products = entries.items.map((item) => {
+      return {
+        sys: item.sys,
+        fields: item.fields,
+        contentTypeId: item.sys.contentType.sys.id,
+      };
+    });
+    return products;
   }
 
   const { data: content, error } = useSWR<Product[]>("content", getContent, {

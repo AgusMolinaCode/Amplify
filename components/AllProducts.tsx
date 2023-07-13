@@ -9,8 +9,8 @@ interface Product {
     contentType: {
       sys: {
         id: string;
-      }
-    }
+      };
+    };
   };
   fields: {
     nombre: string;
@@ -46,24 +46,24 @@ const AllProducts = () => {
     });
 
     client
-  .getEntries<Product>({
-    content_type: "alquiler",
-  })
-  .then((response) => {
-    const products = response.items.map((item) => {
-      return {
-        sys: item.sys,
-        fields: item.fields,
-        contentTypeId: item.sys.contentType.sys.id,
-      };
-    });
-    setProducts(products);
-    setIsLoading(false);
-  })
-  .catch((error) => {
-    console.log(error);
-    setIsLoading(false);
-  });
+      .getEntries<Product>({
+        content_type: "alquiler",
+      })
+      .then((response) => {
+        const products = response.items.map((item) => {
+          return {
+            sys: item.sys,
+            fields: item.fields,
+            contentTypeId: item.sys.contentType.sys.id,
+          };
+        });
+        setProducts(products);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.log(error);
+        setIsLoading(false);
+      });
   }, []);
 
   return (
