@@ -18,6 +18,7 @@ module.exports = {
         ["pulse-slow"]: "pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)",
         ["infinite-slider"]: "infiniteSlider 30s linear infinite",
         slide: "slide 3.5s linear infinite",
+        "background-shine": "background-shine 3s linear infinite",
       },
       keyframes: {
         infiniteSlider: {
@@ -33,6 +34,14 @@ module.exports = {
           "45%": { transform: "translateY(-100%)", opacity: 1 },
           "100%": { transform: "translateY(-100%)", opacity: 0.1 },
         },
+        "background-shine": {
+          "from": {
+            "backgroundPosition": "0 0"
+          },
+          "to": {
+            "backgroundPosition": "-200% 0"
+          }
+        }
       },
     },
     plugins: [],

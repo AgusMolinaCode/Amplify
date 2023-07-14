@@ -95,3 +95,10 @@
   top: 1rem;
 }
 
+.filter-button {
+  background-color: #05040c;
+  transition: background-color 1.0s ease;
+}
+
+
+
