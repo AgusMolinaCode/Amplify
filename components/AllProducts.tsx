@@ -126,7 +126,7 @@ const AllProducts = () => {
             </button>
             <button
               className={`filter-button text-white h-12 px-6 rounded ${
-                selectedCategory === "3" ? "inline-flex h-12 animate-background-shine items-center justify-center rounded-md border-2 border-slate-600 bg-[linear-gradient(90deg,#000103,65%,#f3a4ce,75%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 focus:ring-offset-slate-50 font-principal" : "font-principal"
+                selectedCategory === "3git push origin maingit push origin main" ? "inline-flex h-12 animate-background-shine items-center justify-center rounded-md border-2 border-slate-600 bg-[linear-gradient(90deg,#000103,65%,#f3a4ce,75%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2 focus:ring-offset-slate-50 font-principal" : "font-principal"
               }`}
               onClick={() => handleCategorySelect("3")}
               onFocus={(e) => e.target.blur()}
